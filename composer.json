@@ -1,0 +1,24 @@
+{
+    "name": "philvanbwg/openlayers",
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "files": [
+                "art/*.svg",
+                "img/*.png",
+		"img/*.gif",
+		"theme/default/*.css",
+		"theme/default/img/*.png",
+		"theme/default/img/*.gif",
+		"licenses/*",
+		"authors.txt"
+            ],
+            "scripts": [
+		"lib/*/*/*/*"
+	    ],
+        }
+    }
+}
